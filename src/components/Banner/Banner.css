@@ -1,0 +1,27 @@
+.banner {
+    width: 100%;
+    height: 52rem;
+}
+.banner_img {
+    background: url('https://s3-alpha-sig.figma.com/img/75f2/8f03/874fa44266e31d1ef1408b08b3b9b20c?Expires=1696809600&Signature=Yb8T3ivByB5g9-qgXbBLvVoEwAglaGnJKV7yLp6TbULXDCWew2OWvPTPS-SxhwtHRExPhQZYiq-8pHZHyBI952U3~2NPhvGHoX2uO6Jury-KK4PNeqBuaUMg599G7GwqmlwT64UjDomqrncKrcHvJ46UYoDp4koSJanMQX-i1SsCAGK6HVKxYi5jYf173Re2yVe4Ulb9XMA~rwAuBlzFq6Cmr7JKTISYRgWkcxqOKhXKBcZJ6ObGml1eIJkgpRSLWKLyjTXIQhX9zpkEvx-1JWbDcy5xY~Ty128QONIDGRNMXerVi3BC2zZs9ifOqBNWKNVu7JZpLzJmaX99INUIMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4') lightgray 50% / cover no-repeat;
+    width: 100%;
+    height: auto;
+}
+.banner_blur{
+    background: rgba(0, 18, 51, 0.56);
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+}
+.banner-text {
+  width: 46%;
+  text-align: justify;
+  color: var(--gray-light);
+  padding: 0 0 4.5rem 0;
+}
+.banner_title {
+  margin: 2.5rem 0 0.5rem 0;
+}
+.banner_body {
+  margin: 0;
+}

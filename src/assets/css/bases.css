@@ -1,0 +1,83 @@
+:root {
+    --color-innovation: #FF8C2A;
+    --backend: #00C86F;
+    --black-dark: #00000090;
+    --black-light: #00000050;
+    --black-lghter: #9E9E9E;
+    --black-medium: #00000060;
+    --data-science: #9CD33B;
+    --error-dark: #C62828;
+    --error-light: #FCE7E7;
+    --error-medium: #E53935;
+    --frontend: #6BD1FF;
+    --gray-dark: #C2C2C2;
+    --gray-light: #F5F5F5;
+    --gray-medium: #E5E5E5;
+    --infra: #9CD33B;
+    --marketing: #6B5BE2;
+    --mobile: #FFBA05;
+    --primary-medium: #2A7AE4;
+    --ux: #DC6EBE;
+  
+    --font-main: 'Roboto', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+  }
+  
+  *{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .title-big {
+    font-size: 68px;
+    font-weight: 400;
+}
+
+.title-medium {
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.title-small {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.body-big {
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.body-medium {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.body-small {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.body-smaller {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.container {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.flex {
+  display: flex;
+}
+
+.flex--center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex--column {
+  flex-direction: column;
+}
